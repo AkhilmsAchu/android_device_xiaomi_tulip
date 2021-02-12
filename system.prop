@@ -28,5 +28,6 @@ persist.vendor.camera.ltm.overlap=13
 persist.vendor.camera.fdvideo=1
 
 # HAL1 apps list
-vendor.camera.hal1.packagelist=com.whatsapp,com.intsig.camscanner,com.instagram.android
+camera.hal1.packagelist=com.android.camera,com.android.camera2,com.instagram.android
+vendor.camera.hal1.packagelist= com.android.camera,com.android.camera2,com.instagram.android
 
