@@ -5,8 +5,9 @@ ro.netflix.bsp_rev=Q660-13149-1
 ro.com.google.ime.kb_pad_port_b=1
 
 #Expose aux camera for below packages
-camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.qualcomm.qti.qmmi
-vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.qualcomm.qti.qmmi,com.longcheertel.cit
+vendor.camera.aux.packageblacklist=com.discord
+camera.aux.packagelist=com.google.android.GoogleCamera,com.android.camera,org.codeaurora.snapcam
+vendor.camera.aux.packagelist=com.google.android.GoogleCamera,com.android.camera,org.codeaurora.snapcam
 
 #exif info for camera
 persist.vendor.camera.exif.model=Redmi Note 6 Pro
