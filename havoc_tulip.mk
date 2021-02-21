@@ -22,6 +22,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 # Inherit some common havoc stuff
 $(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+
 # Inherit from tulip device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
