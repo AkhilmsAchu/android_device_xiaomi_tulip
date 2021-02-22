@@ -74,4 +74,5 @@ PRODUCT_PACKAGES += \
     TulipWifiOverlay
 
 # Inherit the proprietary files
+$(call inherit-product, vendor/miuicamera/common/common-vendor.mk)
 $(call inherit-product, vendor/xiaomi/tulip/tulip-vendor.mk)
