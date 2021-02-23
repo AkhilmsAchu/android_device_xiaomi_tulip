@@ -14,6 +14,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.imx376_ofilm.light.lux=275 \
     persist.vendor.imx376_ofilm.low.lux=290 \
     persist.vendor.imx376_sunny.light.lux=275 \
+    persist.vendor.camera.exif.model=Redmi Note 6 Pro \
+    persist.vendor.camera.ltm.overlap=13 \
+    persist.vendor.camera.fdvideo=1 \
     persist.vendor.imx376_sunny.low.lux=290
 
 # Havoc
