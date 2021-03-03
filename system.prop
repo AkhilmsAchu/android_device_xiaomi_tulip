@@ -20,3 +20,6 @@ persist.vendor.camera.fdvideo=1
 camera.hal1.packagelist=com.android.camera,com.android.camera2,com.instagram.android
 vendor.camera.hal1.packagelist= com.android.camera,com.android.camera2,com.instagram.android
 
+# Fling
+ro.min.fling_velocity=160
+ro.max.fling_velocity=20000
