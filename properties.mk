@@ -18,8 +18,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.ltm.overlap=13 \
     persist.vendor.camera.fdvideo=1 \
     persist.vendor.imx376_sunny.low.lux=290
-
-# Havoc
-PRODUCT_PROPERTY_OVERRIDES += \
-   ro.havoc.maintainer=AkhilMsAchu
-
