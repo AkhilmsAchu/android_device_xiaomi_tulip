@@ -26,3 +26,6 @@ ro.max.fling_velocity=20000
 
 # Zygote preforking
 persist.device_config.runtime_native.usap_pool_enabled=true
+
+# Google Assistant
+ro.opa.eligible_device=true
